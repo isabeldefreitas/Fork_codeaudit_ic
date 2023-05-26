@@ -93,6 +93,6 @@ int main() {
     printf("Menor valor: %i\n", encontraMenor(vetNum, numEl));
     
     printf("Posicao do menor: [%i]\n", encontraPosicaoMenor(vetNum, numEl));
-
+    
     return 0;
 }
