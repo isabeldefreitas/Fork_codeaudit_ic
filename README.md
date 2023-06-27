@@ -12,12 +12,12 @@
 - Objetivo: aplicar a metodologia no código do núcleo dinâmico do modelo MONAN
 
 ## Autores
- Bolsista: 
+ ### Bolsista: 
  
  Isabel de Freitas Barboza
 - [@isabeldefreitas](https://github.com/isabeldefreitas)
 
- Orientadores: 
+ ### Orientadores: 
  
  Roberto Pinto Souto (LNCC)
 - [@robertopsouto](https://github.com/robertopsouto)
