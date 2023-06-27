@@ -1,0 +1,14 @@
+Digite a quantidade de elementos:
+Digite os elementos:
+5, 7, 9, 8, 3, 4, 
+Digite quantos elementos deseja mostrar:
+
+Partindo de qual posicao?
+8, 3, 4, 
+Soma dos valores do vetor: 15
+
+Maior valor: 8
+Posicao do maior: [0]
+
+Menor valor: 3
+Posicao do menor: [1]
