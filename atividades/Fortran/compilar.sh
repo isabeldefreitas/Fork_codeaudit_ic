@@ -1,0 +1,1 @@
+ gfortran -o dados2.x dadosPessoais2.f90

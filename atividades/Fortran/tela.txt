@@ -1,0 +1,8 @@
+ Digite seu nome:
+ Digite seu sobrenome:
+ Digite sua idade:
+ Digite sua altura:
+ Informações:
+ Nome:isabeel                                            barboza                                           
+ Idade:          19
+ Altura:   1.00000000    
