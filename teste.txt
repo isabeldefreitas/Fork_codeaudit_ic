@@ -1,22 +1,24 @@
 subroutine mostrarConteudo(vetNum_, n_)
+        
         implicit none
-        integer  vetNum_(5)
-        integer  n_
-        integer  i, inicio, fim
+        integer :: vetNum_(n_)
+        integer :: n_
+        integer :: i, inicio, fim
         inicio=1; fim=n_;
         do i = inicio, fim
-            print , vetNum_(i)
+            print *, vetNum_(i)
         end do
-        print   
+        print *,  ' '
     end subroutine mostrarConteudo
 
 
 function somaNumero(vetNumSoma, nSoma) 
+        
         implicit none
-        integer  somaNumero  ! tipo de retorno da função
-        integer  vetNumSoma(nSoma) 
-        integer  soma
-        integer  i, inicio, fim
+        integer :: somaNumero  ! tipo de retorno da função
+        integer :: vetNumSoma(nSoma) 
+        integer :: soma
+        integer :: i, inicio, fim
         inicio=1; fim=nSoma;
         soma = 0
         do i = inicio, fim
@@ -26,10 +28,12 @@ function somaNumero(vetNumSoma, nSoma)
     end function somaNumero
 
 subroutine encontraMaior(vetNumMaior, Nmaior) 
+        
         implicit none
-        integer  maior
+        integer :: maior
+        integer :: i, inicio, fim
+        
         maior = vetNumMaior(inicio)
-        integer  i, inicio, fim
         inicio=0; fim=Nmaior;
 
         do i = inicio, fim
@@ -45,8 +49,9 @@ subroutine encontraMenor(vetNumMenor, Nmenor)
         
         implicit none
         
-        integer  menor
-        integer  i, inicio, fim
+        integer :: menor
+        integer :: i, inicio, fim
+        
         inicio=0; fim=Nmaior;
         menor = vetNumMenor(inicio)
         
@@ -69,7 +74,7 @@ program ManipulacaoVetor
     read *, numEl
     
     print *, "Digite os elementos:"
-    do i = 0, numEl
+    	do i = 0, numEl
             read *, vetNum(i)
         end do
     
@@ -86,3 +91,9 @@ program ManipulacaoVetor
     call encontraMenor(vetNum, numEl)
 
 end program ManipulacaoVetor
+
+
+
+
+
+
