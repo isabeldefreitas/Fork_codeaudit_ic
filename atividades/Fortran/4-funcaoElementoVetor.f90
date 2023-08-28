@@ -1,4 +1,5 @@
 program ManipulacaoVetor
+    
     implicit none
     integer :: i, numEl, inicio=1, fim
     integer, allocatable :: vetNum(:)
@@ -25,9 +26,8 @@ program ManipulacaoVetor
     
     print *, "Menor valor:", encontraMenor(vetNum, numEl, inicio, fim)
     
-    print *, "Posicao do menor:", encontraPosicaoMenor(vetNum, numEl, inicio, fim)
-    
-    deallocate(vetNum)
+    print *, "Posicao do menor: [", encontraPosicaoMenor(vetNum, numEl, inicio, fim), "]"
+
     
 contains
 
