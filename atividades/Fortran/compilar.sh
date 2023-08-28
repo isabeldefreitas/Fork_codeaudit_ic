@@ -1,0 +1,1 @@
+ gfortran -o funcao.x 5-funcaoEmModulo.f90
