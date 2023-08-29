@@ -13,7 +13,7 @@ module ManipulacaoVet
         end do
     end subroutine mostrarConteudo
 
-    integer function somaNumero(vet_Num, num_El, inicioS, fimS)
+    integer function somaNumero(vet_Num, num_El, inicioS, fimS) 
         
         integer, intent(in) :: vet_Num(:)
         integer, intent(in) :: num_El, inicioS, fimS
@@ -24,6 +24,7 @@ module ManipulacaoVet
         do i = inicioS, fimS
             soma = soma + vet_Num(i)
         end do
+        somaNumero=soma
     end function somaNumero
 
     integer function encontraMaior(vetNumMa, numElMa, inicioMa, fimMa)
@@ -34,7 +35,7 @@ module ManipulacaoVet
         integer :: maior
         
         maior = vetNumMa(inicioMa)
-        do i = inicioMa + 1, fimMa
+        do i = inicioMa, fimMa
             if (vetNumMa(i) > maior) then
                 maior = vetNumMa(i)
             end if
@@ -50,7 +51,7 @@ module ManipulacaoVet
         integer :: menor
         
         menor = vetNumMe(inicioMe)
-        do i = inicioMe + 1, fimMe
+        do i = inicioMe, fimMe
             if (vetNumMe(i) < menor) then
                 menor = vetNumMe(i)
             end if
